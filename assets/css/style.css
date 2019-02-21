@@ -4,6 +4,7 @@ header{
     background-color: white;
     box-shadow:2px 2px;
     margin-top:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #name{
@@ -11,11 +12,14 @@ header{
     background-color: teal;
     color: white;
     width: 250px;
-    height: 100px;
+    height: 70px;
     float:left;
     left: 20%;
     top:0;
     margin-top:8px;
+    padding-top:30px;
+    padding-left: 10px;
+    
 }
 
 a{
@@ -23,7 +27,9 @@ a{
     position: relative;
     float: left;
     left: 70%;
-    top: 50px;
+    top: 30px;
+    font-size: 24px;
+    
 }
 
 section{
@@ -50,7 +56,7 @@ body{
     background-image: url("../images/dynamic-style.png");
     
     background-repeat: repeat;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #myimage{
@@ -65,6 +71,7 @@ body{
     position:relative;
     left: 20px;
     top: 20px;
+    height: 70px;
 
 }
 
@@ -82,4 +89,34 @@ footer{
 
 p{
     margin:20px;
+}
+
+.portimg{
+    height: 200px;
+    width: 200px;
+
+}
+
+hr{
+    width: 80%;
+margin-top: 20px;
+height: 4px;
+color:teal;
+border-width:0;
+background-color:teal;
+
+}
+
+a:hover{
+
+    background-color:teal;
+
+}
+
+a:active{
+    background-color:red;
+}
+
+a:focus{
+    background-color:green;
 }
